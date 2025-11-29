@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "711025423429",
+    "firebase_url": "https://trashwise-29a9e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "trashwise-29a9e",
+    "storage_bucket": "trashwise-29a9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711025423429:android:a6f15a9f3bec6b56101f2c",
+        "android_client_info": {
+          "package_name": "com.example.trashwisecollector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGVb4ggCvvVSPYBFycJgl46C45uAju1Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
