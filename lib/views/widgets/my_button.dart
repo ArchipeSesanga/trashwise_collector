@@ -29,7 +29,7 @@ class MyButton extends StatelessWidget {
             fontFamily: 'Poppins',
             fontSize: 18,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
       ),

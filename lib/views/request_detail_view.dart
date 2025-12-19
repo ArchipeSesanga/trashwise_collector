@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 import 'package:trashwisecollector/models/request_model.dart';
+import 'package:trashwisecollector/routes/app_routes.dart';
 import 'package:trashwisecollector/views/accepted_request_view.dart';
 
 class CustomerDetails {
@@ -99,8 +100,8 @@ class _RequestDetailViewState extends State<RequestDetailView> {
       _processing = false;
     });
 
-    Navigator.of(context)
-        .pushReplacementNamed(AcceptedRequestsView.routeName);
+   Navigator.of(context).pushReplacementNamed(AppRoutes.accepted_requests);
+
   } catch (e) {
     setState(() => _processing = false);
     ScaffoldMessenger.of(context).showSnackBar(

@@ -6,11 +6,10 @@ import 'package:trashwisecollector/views/widgets/pickup_request_card.dart';
 class AcceptedRequestsView extends StatelessWidget {
   const AcceptedRequestsView({super.key});
 
-  static const routeName = '/accepted-requests';
+  static const routeName = '/accepted_requests';
 
   @override
   Widget build(BuildContext context) {
-    // You would typically filter by CollectorId here too, but for simplicity, 
     // we only filter by Status.
     return Scaffold(
       appBar: AppBar(
